@@ -55,7 +55,7 @@ export default function PizzaPackagePage({ category }) {
             <h2 className="mb-3 mt-6 font-display font-bold text-cream">{t('common.ourDrinks')}</h2>
             <div className="grid grid-cols-3 gap-3">
               {drinks.map((d) => (
-                <DrinkCard key={d.slug} name={d.name} note={d.note} brandColor={d.brandColor} shape={d.shape} />
+                <DrinkCard key={d.slug} name={d.name} note={d.note} brandColor={d.brandColor} image={d.image} />
               ))}
             </div>
           </>

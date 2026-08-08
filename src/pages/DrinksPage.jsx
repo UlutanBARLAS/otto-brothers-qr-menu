@@ -21,7 +21,7 @@ export default function DrinksPage({ category }) {
 
         <div className="grid grid-cols-2 gap-3">
           {drinks.map((d) => (
-            <DrinkCard key={d.slug} name={d.name} note={d.note} brandColor={d.brandColor} shape={d.shape} />
+            <DrinkCard key={d.slug} name={d.name} note={d.note} brandColor={d.brandColor} image={d.image} />
           ))}
         </div>
       </main>
