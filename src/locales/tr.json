@@ -61,7 +61,7 @@
   },
   "drinks": {
     "pepsi": { "name": "Pepsi" },
-    "pepsi-zero": { "name": "Pepsi Zero" },
+    "pepsi-max": { "name": "Pepsi Max" },
     "7up": { "name": "7up" },
     "yedigun": { "name": "Yedigün" },
     "lipton-ice-tea": { "name": "Lipton Ice Tea Şeftali" },
