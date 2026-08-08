@@ -1,6 +1,7 @@
-import { GlassWater, ChevronRight } from 'lucide-react'
+import { ChevronRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { useTransition } from '../context/TransitionContext'
+import DrinksCollage from './DrinksCollage'
 
 export default function CategoryCard({ slug, title, tagline, price, heroImage }) {
   const { t } = useTranslation()
@@ -16,7 +17,7 @@ export default function CategoryCard({ slug, title, tagline, price, heroImage })
         {heroImage ? (
           <img src={heroImage} alt="" className="h-full w-full object-cover" loading="lazy" />
         ) : (
-          <GlassWater className="h-9 w-9 text-primary" />
+          <DrinksCollage />
         )}
       </div>
 

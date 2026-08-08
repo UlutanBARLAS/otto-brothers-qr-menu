@@ -12,12 +12,12 @@ export const PIZZA_VARIETIES = [
 ]
 
 export const DRINKS = [
-  { slug: 'pepsi', brandColor: '#0a4da2', shape: 'can' },
-  { slug: 'pepsi-zero', brandColor: '#111111', shape: 'can' },
-  { slug: '7up', brandColor: '#2fa63f', shape: 'can' },
-  { slug: 'yedigun', brandColor: '#f2c400', shape: 'can' },
-  { slug: 'lipton-ice-tea', brandColor: '#e8871e', shape: 'bottle' },
-  { slug: 'fruko-soda', brandColor: '#1c8a4b', shape: 'bottle' },
+  { slug: 'pepsi', brandColor: '#0a4da2' },
+  { slug: 'pepsi-zero', brandColor: '#2b2b2b' },
+  { slug: '7up', brandColor: '#2fa63f' },
+  { slug: 'yedigun', brandColor: '#f2c400' },
+  { slug: 'lipton-ice-tea', brandColor: '#e8871e' },
+  { slug: 'fruko-soda', brandColor: '#1c8a4b' },
 ]
 
 export const CATEGORIES = [
