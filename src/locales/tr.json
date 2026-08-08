@@ -12,7 +12,9 @@
     "ourDrinks": "İçeceklerimiz",
     "tapToExplore": "Keşfetmek için dokun",
     "madeWith": "Mozzarella peyniri ile hazırlanır",
-    "languageLabel": "Dil"
+    "languageLabel": "Dil",
+    "enjoyMessage": "Afiyet olsun",
+    "rightsReserved": "Tüm hakları saklıdır."
   },
   "categories": {
     "sinirsiz-pizza": {

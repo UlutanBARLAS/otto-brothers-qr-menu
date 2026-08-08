@@ -12,7 +12,9 @@
     "ourDrinks": "Our Drinks",
     "tapToExplore": "Tap to explore",
     "madeWith": "Made with mozzarella cheese",
-    "languageLabel": "Language"
+    "languageLabel": "Language",
+    "enjoyMessage": "Enjoy your meal",
+    "rightsReserved": "All rights reserved."
   },
   "categories": {
     "sinirsiz-pizza": {

@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useRef } from 'react'
+import { createContext, useContext, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import gsap from 'gsap'
 import PizzaWheelOverlay, { WHEEL_SIZE } from '../components/PizzaWheelOverlay'
@@ -22,11 +22,6 @@ export function TransitionProvider({ children }) {
   const sliceRefs = useRef(Array(SLICE_COUNT).fill(null))
   const busyRef = useRef(false)
 
-  useEffect(() => {
-    gsap.set(sliceRefs.current, { scale: 0 })
-    gsap.set(wheelRef.current, { scale: 1 })
-  }, [])
-
   const navigateWithTransition = (to) => {
     if (busyRef.current) return
     if (reducedMotion) {
@@ -41,7 +36,7 @@ export function TransitionProvider({ children }) {
     gsap.timeline({ onComplete: () => (busyRef.current = false) })
       .set(containerRef.current, { opacity: 1, pointerEvents: 'auto' })
       .set(slices, { scale: 0 })
-      .set(wheelRef.current, { scale: 1 })
+      .set(wheelRef.current, { scale: 1, opacity: 1 })
       .to(slices, { scale: 1, duration: 0.28, stagger: 0.035, ease: 'back.out(1.7)' })
       .to(wheelRef.current, { scale, duration: 0.42, ease: 'power2.in' }, '+=0.04')
       .call(() => {
@@ -66,7 +61,7 @@ export function TransitionProvider({ children }) {
       .set(containerRef.current, { opacity: 1, pointerEvents: 'auto' })
       .set(backdropRef.current, { opacity: 1 })
       .set(slices, { scale: 0 })
-      .set(wheelRef.current, { scale: 1 })
+      .set(wheelRef.current, { scale: 1, opacity: 1 })
       .set(logoRef.current, { opacity: 0, y: 12 })
       .to(slices, { scale: 1, duration: 0.35, stagger: 0.05, ease: 'back.out(1.7)' })
       .to(logoRef.current, { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, '-=0.1')

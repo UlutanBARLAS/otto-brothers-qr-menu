@@ -12,7 +12,9 @@
     "ourDrinks": "Наши напитки",
     "tapToExplore": "Нажмите, чтобы посмотреть",
     "madeWith": "Готовится с сыром моцарелла",
-    "languageLabel": "Язык"
+    "languageLabel": "Язык",
+    "enjoyMessage": "Приятного аппетита",
+    "rightsReserved": "Все права защищены."
   },
   "categories": {
     "sinirsiz-pizza": {
