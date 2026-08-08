@@ -1,0 +1,68 @@
+{
+  "brand": { "name": "Otto Brothers", "tagline": "Pizza" },
+  "home": {
+    "heading": "OTTO BROTHERS",
+    "subheading": "PIZZA",
+    "intro": "Choose a menu"
+  },
+  "common": {
+    "backToMenu": "Back to Menu",
+    "currency": "TL",
+    "allVarieties": "Pizza Varieties",
+    "ourDrinks": "Our Drinks",
+    "tapToExplore": "Tap to explore",
+    "madeWith": "Made with mozzarella cheese",
+    "languageLabel": "Language"
+  },
+  "categories": {
+    "sinirsiz-pizza": {
+      "title": "Unlimited Pizza",
+      "tagline": "Eat as much as you like, enjoy every bite!",
+      "priceNote": "Unlimited drinks included",
+      "description": "You can take as many slices as you like from the pizzas on our counter.",
+      "notes": ["All our pizzas are made with mozzarella cheese."],
+      "policies": [
+        {
+          "title": "Don't Waste Food!",
+          "text": "A 50 TL waste fee applies to every pizza slice left on your plate."
+        },
+        { "text": "No charge for pizza remaining on the counter." }
+      ]
+    },
+    "gel-al-pizza": {
+      "title": "Takeaway Pizza",
+      "tagline": "Takeaway service, full flavor",
+      "description": "Grab your favorite pizza to go with our takeaway option.",
+      "notes": ["All our pizzas are made with mozzarella cheese."]
+    },
+    "pizza-icecek": {
+      "title": "Pizza + Drink",
+      "tagline": "Combo menu, extra enjoyment",
+      "priceNote": "Pizza + Drink",
+      "description": "Your chosen pizza, paired with your chosen drink.",
+      "notes": ["All our pizzas are made with mozzarella cheese."]
+    },
+    "icecekler": {
+      "title": "Our Drinks",
+      "tagline": "The perfect companion",
+      "description": "Drinks you can pair with our menus."
+    }
+  },
+  "pizzaVarieties": {
+    "karisik": {
+      "name": "Mixed",
+      "ingredients": ["Turkish sausage", "Sausage", "Red pepper", "Green pepper", "Mushroom", "Corn"]
+    },
+    "sucuklu": { "name": "Turkish Sausage", "ingredients": ["Turkish sausage (sucuk)"] },
+    "sosisli": { "name": "Sausage", "ingredients": ["Sausage", "Corn"] },
+    "margarita": { "name": "Margherita", "ingredients": ["Tomato"] }
+  },
+  "drinks": {
+    "pepsi": { "name": "Pepsi" },
+    "pepsi-zero": { "name": "Pepsi Zero" },
+    "7up": { "name": "7up" },
+    "yedigun": { "name": "Yedigün" },
+    "lipton-ice-tea": { "name": "Lipton Peach Ice Tea" },
+    "fruko-soda": { "name": "Fruko Soda", "note": "Sparkling water" }
+  }
+}

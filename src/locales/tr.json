@@ -1,0 +1,68 @@
+{
+  "brand": { "name": "Otto Brothers", "tagline": "Pizza" },
+  "home": {
+    "heading": "OTTO BROTHERS",
+    "subheading": "PİZZA",
+    "intro": "Menüden birini seç"
+  },
+  "common": {
+    "backToMenu": "Menüye Dön",
+    "currency": "TL",
+    "allVarieties": "Pizza Çeşitleri",
+    "ourDrinks": "İçeceklerimiz",
+    "tapToExplore": "Keşfetmek için dokun",
+    "madeWith": "Mozzarella peyniri ile hazırlanır",
+    "languageLabel": "Dil"
+  },
+  "categories": {
+    "sinirsiz-pizza": {
+      "title": "Sınırsız Pizza",
+      "tagline": "Dilediğin kadar ye, keyfini çıkar!",
+      "priceNote": "Sınırsız içecek dahildir",
+      "description": "Tezgahımızdaki pizzalardan dilediğiniz kadar dilim alabilirsiniz.",
+      "notes": ["Tüm pizzalarımız mozzarella peyniri ile hazırlanır."],
+      "policies": [
+        {
+          "title": "İsraf Etmeyelim!",
+          "text": "Tabağınızda bıraktığınız her pizza dilimine 50 TL israf bedeli uygulanmaktadır."
+        },
+        { "text": "Tezgahta kalan pizzalar için herhangi bir ücret alınmaz." }
+      ]
+    },
+    "gel-al-pizza": {
+      "title": "Gel Al Pizza",
+      "tagline": "Paket servis, tam lezzet",
+      "description": "Gel-al seçeneğiyle dilediğin pizzayı paket alabilirsin.",
+      "notes": ["Tüm pizzalarımız mozzarella peyniri ile hazırlanır."]
+    },
+    "pizza-icecek": {
+      "title": "Pizza + İçecek",
+      "tagline": "İkili menü, ekstra keyif",
+      "priceNote": "Pizza + İçecek",
+      "description": "Seçtiğin pizza, seçtiğin içecekle birlikte.",
+      "notes": ["Tüm pizzalarımız mozzarella peyniri ile hazırlanır."]
+    },
+    "icecekler": {
+      "title": "İçeceklerimiz",
+      "tagline": "Yanına en iyi eşlik eden",
+      "description": "Menülerimizin yanında tercih edebileceğin içecekler."
+    }
+  },
+  "pizzaVarieties": {
+    "karisik": {
+      "name": "Karışık",
+      "ingredients": ["Sucuk", "Sosis", "Kırmızı biber", "Yeşil biber", "Mantar", "Mısır"]
+    },
+    "sucuklu": { "name": "Sucuklu", "ingredients": ["Sucuk"] },
+    "sosisli": { "name": "Sosisli", "ingredients": ["Sosis", "Mısır"] },
+    "margarita": { "name": "Margarita", "ingredients": ["Domates"] }
+  },
+  "drinks": {
+    "pepsi": { "name": "Pepsi" },
+    "pepsi-zero": { "name": "Pepsi Zero" },
+    "7up": { "name": "7up" },
+    "yedigun": { "name": "Yedigün" },
+    "lipton-ice-tea": { "name": "Lipton Ice Tea Şeftali" },
+    "fruko-soda": { "name": "Fruko Soda", "note": "Maden Suyu" }
+  }
+}
