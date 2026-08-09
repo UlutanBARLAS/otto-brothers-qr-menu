@@ -3,6 +3,7 @@
 @theme {
   --font-display: "Poppins", "system-ui", sans-serif;
   --font-body: "Inter", "system-ui", sans-serif;
+  --font-script: "Pacifico", "system-ui", cursive;
 
   --color-ink: #0c0a09;
   --color-surface: #17130f;
