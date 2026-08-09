@@ -32,6 +32,8 @@ export const CATEGORIES = [
     policies: [
       { type: 'warning' },
       { type: 'info' },
+      { type: 'info' },
+      { type: 'info' },
     ],
   },
   {

@@ -28,7 +28,12 @@
           "title": "Don't Waste Food!",
           "text": "A 50 TL waste fee applies to every pizza slice left on your plate."
         },
-        { "text": "No charge for pizza remaining on the counter." }
+        { "text": "No charge for pizza remaining on the counter." },
+        { "text": "Leftover pizza from the counter or tables isn't wasted — it goes to feed street animals." },
+        {
+          "title": "Free Unlimited Menu for Kids 0-4!",
+          "text": "Children aged 0-4 eat from the Unlimited Pizza menu for free; this only applies to the child, not the parent."
+        }
       ]
     },
     "gel-al-pizza": {

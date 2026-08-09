@@ -28,7 +28,14 @@
           "title": "İsraf Etmeyelim!",
           "text": "Tabağınızda bıraktığınız her pizza dilimine 50 TL israf bedeli uygulanmaktadır."
         },
-        { "text": "Tezgahta kalan pizzalar için herhangi bir ücret alınmaz." }
+        { "text": "Tezgahta kalan pizzalar için herhangi bir ücret alınmaz." },
+        {
+          "text": "Tezgahta veya masalarda kalan pizza dilimleri israf edilmez, sokak hayvanlarına verilir."
+        },
+        {
+          "title": "0-4 Yaş Çocuklara Sınırsız Menü Ücretsiz!",
+          "text": "Sınırsız Pizza'da 0-4 yaş arası çocuklar ücretsizdir; bu ücretsizlik yalnızca çocuğa aittir, ebeveyn için geçerli değildir."
+        }
       ]
     },
     "gel-al-pizza": {
