@@ -4,7 +4,7 @@ import BackButton from '../components/BackButton'
 import DrinkCard from '../components/DrinkCard'
 
 export default function DrinksPage({ category }) {
-  const { title, tagline, description, drinks } = category
+  const { title, tagline, description, drinks, heroImage } = category
 
   return (
     <div className="mx-auto flex min-h-full max-w-md flex-col">
@@ -12,6 +12,14 @@ export default function DrinksPage({ category }) {
 
       <main className="flex-1 px-4 py-6">
         <BackButton />
+
+        {heroImage && (
+          <img
+            src={heroImage}
+            alt=""
+            className="mb-6 h-40 w-full rounded-2xl object-cover"
+          />
+        )}
 
         <div className="mb-6 text-center">
           <h1 className="font-display text-2xl font-extrabold text-cream">{title}</h1>

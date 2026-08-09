@@ -12,12 +12,12 @@ export const PIZZA_VARIETIES = [
 ]
 
 export const DRINKS = [
-  { slug: 'pepsi', brandColor: '#0a4da2', image: '/images/drinks/drink-pepsi.jpg' },
-  { slug: 'pepsi-max', brandColor: '#2b2b2b', image: '/images/drinks/drink-pepsi-max.jpg' },
-  { slug: '7up', brandColor: '#2fa63f', image: '/images/drinks/drink-7up.jpg' },
-  { slug: 'yedigun', brandColor: '#f2c400', image: '/images/drinks/drink-yedigun.jpg' },
-  { slug: 'lipton-ice-tea', brandColor: '#e8871e', image: '/images/drinks/drink-lipton.jpg' },
-  { slug: 'fruko-soda', brandColor: '#1c8a4b', image: '/images/drinks/drink-fruko.jpg' },
+  { slug: 'pepsi', brandColor: '#0a4da2', image: '/images/drinks/drink-pepsi.webp' },
+  { slug: 'pepsi-max', brandColor: '#2b2b2b', image: '/images/drinks/drink-pepsi-max.webp' },
+  { slug: '7up', brandColor: '#2fa63f', image: '/images/drinks/drink-7up.webp' },
+  { slug: 'yedigun', brandColor: '#f2c400', image: '/images/drinks/drink-yedigun.webp' },
+  { slug: 'lipton-ice-tea', brandColor: '#e8871e', image: '/images/drinks/drink-lipton.webp' },
+  { slug: 'fruko-soda', brandColor: '#1c8a4b', image: '/images/drinks/drink-fruko.webp' },
 ]
 
 export const CATEGORIES = [
@@ -55,7 +55,7 @@ export const CATEGORIES = [
   {
     slug: 'icecekler',
     kind: 'drinks',
-    heroImage: null,
+    heroImage: '/images/drinks-hero.webp',
     drinks: DRINKS,
   },
 ]
