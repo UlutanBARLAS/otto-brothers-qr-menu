@@ -56,7 +56,7 @@ npm run preview   # prod build'i yerelde önizle
 
 - Pizza görselleri işletmenin kendi ürün fotoğraflarından; içecek görselleri gerçek ürün fotoğrafları olup tutarlı bir görünüm için siyah zemine oturtulmuştur.
 - Atıştırmalık sepetlerinin fiyatları işletme tarafından henüz belirlenmediği için menüde şimdilik fiyatsız gösterilir; `src/data/menu.js` içindeki `SNACKS` dizisine fiyat eklendiğinde otomatik görünür.
-- Barındırma tamamen ücretsiz katmanlarla (Vercel/GitHub Pages) yapılacak şekilde tasarlanmıştır — backend veya veritabanı gerektirmez.
+- Barındırma Cloudflare Pages üzerinde, tamamen ücretsiz katmanla yapılmıştır — backend veya veritabanı gerektirmez, ticari kullanım şartlarıyla tam uyumludur.
 
 ---
 
