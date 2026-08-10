@@ -53,6 +53,11 @@
       "title": "Our Drinks",
       "tagline": "The perfect companion",
       "description": "Drinks you can pair with our menus."
+    },
+    "atistirmaliklar": {
+      "title": "Snack Baskets",
+      "tagline": "The perfect side to your pizza",
+      "description": "Crispy snack baskets you can pair with our pizzas."
     }
   },
   "pizzaVarieties": {
@@ -71,5 +76,15 @@
     "yedigun": { "name": "Yedigün" },
     "lipton-ice-tea": { "name": "Lipton Peach Ice Tea" },
     "fruko-soda": { "name": "Fruko Gazoz" }
+  },
+  "snacks": {
+    "kajun-patates": {
+      "name": "Cajun Spiced Fries Basket",
+      "description": "Crispy potato wedges seasoned with a blend of Cajun spices."
+    },
+    "sosis-sogan-patates": {
+      "name": "Sausage, Onion Rings & Fries Basket",
+      "description": "Sausage bites, crispy onion rings, and fries all in one basket."
+    }
   }
 }

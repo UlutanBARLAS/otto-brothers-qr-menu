@@ -17,9 +17,12 @@ export function useCategoryContent(slug) {
   const drinks = category.drinks?.map((d) =>
     mergeText(d, t(`drinks.${d.slug}`, { returnObjects: true, defaultValue: null })),
   )
+  const items = category.items?.map((i) =>
+    mergeText(i, t(`snacks.${i.slug}`, { returnObjects: true, defaultValue: null })),
+  )
   const policies = category.policies?.map((p, i) => ({ ...p, ...(text.policies?.[i] || {}) }))
 
-  return { ...category, ...text, varieties, drinks, policies }
+  return { ...category, ...text, varieties, drinks, items, policies }
 }
 
 export function useDrinksContent() {

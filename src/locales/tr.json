@@ -55,6 +55,11 @@
       "title": "İçeceklerimiz",
       "tagline": "Yanına en iyi eşlik eden",
       "description": "Menülerimizin yanında tercih edebileceğin içecekler."
+    },
+    "atistirmaliklar": {
+      "title": "Atıştırmalıklar",
+      "tagline": "Pizzanın yanına, keyfe keyif",
+      "description": "Pizzalarımızın yanında tercih edebileceğin çıtır atıştırmalık sepetlerimiz."
     }
   },
   "pizzaVarieties": {
@@ -73,5 +78,15 @@
     "yedigun": { "name": "Yedigün" },
     "lipton-ice-tea": { "name": "Lipton Ice Tea Şeftali" },
     "fruko-soda": { "name": "Fruko Gazoz" }
+  },
+  "snacks": {
+    "kajun-patates": {
+      "name": "Kajun Baharatlı Patates Sepeti",
+      "description": "Kajun baharatlarıyla harmanlanmış, çıtır çıtır patates dilimleri."
+    },
+    "sosis-sogan-patates": {
+      "name": "Sosis, Soğan Halkası ve Patates Sepeti",
+      "description": "Sosis, çıtır soğan halkası ve patates bir arada."
+    }
   }
 }

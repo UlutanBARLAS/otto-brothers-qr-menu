@@ -20,6 +20,11 @@ export const DRINKS = [
   { slug: 'fruko-soda', brandColor: '#1c8a4b', image: '/images/drinks/drink-fruko.webp' },
 ]
 
+export const SNACKS = [
+  { slug: 'kajun-patates', price: null, image: '/images/snacks/kajun-patates.webp' },
+  { slug: 'sosis-sogan-patates', price: null, image: '/images/snacks/sosis-sogan-patates.webp' },
+]
+
 export const CATEGORIES = [
   {
     slug: 'sinirsiz-pizza',
@@ -59,6 +64,12 @@ export const CATEGORIES = [
     kind: 'drinks',
     heroImage: '/images/drinks-hero.webp',
     drinks: DRINKS,
+  },
+  {
+    slug: 'atistirmaliklar',
+    kind: 'snacks',
+    heroImage: '/images/snacks/atistirmaliklar-hero.webp',
+    items: SNACKS,
   },
 ]
 
